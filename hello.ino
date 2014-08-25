@@ -16,6 +16,10 @@ void loop() {
 
   fill(BALCK);
   delay(1000);
+
+  uView.print("HelloWorld")
+  uView.display();
+  delay(1000);
 }
 
 void fill(uint8_t color) {
