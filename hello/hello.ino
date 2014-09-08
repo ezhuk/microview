@@ -7,7 +7,8 @@
 
 void setup() {
   uView.begin();
-  uView.clear(PAGE);
+  uView.clear(ALL);
+  uView.display();
 }
 
 void loop() {
