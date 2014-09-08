@@ -9,6 +9,8 @@ void setup() {
   uView.begin();
   uView.clear(ALL);
   uView.display();
+  delay(500);
+  uView.clear(PAGE);
 }
 
 void loop() {
