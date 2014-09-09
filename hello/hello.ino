@@ -17,7 +17,7 @@ void loop() {
   fill(WHITE);
   delay(1000);
 
-  fill(BALCK);
+  fill(BLACK);
   delay(1000);
 
   uView.print("HelloWorld")
